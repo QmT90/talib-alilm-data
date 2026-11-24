@@ -7,7 +7,7 @@
 |---|---|---|---|
 | `quran/<رواية>/` | نص المصحف (JSON) + خط المجمع (TTF) لـ 7 روايات | [مجمع الملك فهد لطباعة المصحف الشريف](https://qurancomplex.gov.sa/en/techquran/dev/) | يُستخدم دون أي تعديل على النص |
 | `tafsir/` | ابن كثير، الطبري، القرطبي، البغوي، السعدي، الميسر، الوسيط | [Quran.com API v4](https://quran.com) | أعمال تراثية؛ النص الرقمي من Quran.com |
-| `hadith/` | البخاري، مسلم، أبو داود، الترمذي، النسائي، ابن ماجه، الموطأ، النووية، القدسية | [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) | Unlicense |
+| `hadith/` | البخاري، مسلم، أبو داود، الترمذي، النسائي، ابن ماجه، الموطأ، النووية، القدسية | [fawazahmed0/hadith-api](https://github.com/fawazahmed0/hadith-api) (المتون) + [AhmedBaset/hadith-json](https://github.com/AhmedBaset/hadith-json) (أسماء الكتب بالعربية) | Unlicense |
 
 الصيغة `*.tbook.json.gz` موثّقة في مستودع التطبيق (`docs/BOOK_FORMAT.md`).
 تُولَّد هذه الملفات بالأداة `tool/build_data_repo.py` في مستودع التطبيق — لا تُعدَّل يدوياً.
